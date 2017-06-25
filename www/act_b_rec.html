@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>政大劍道 NCCU KENDO</title>
+<link rel="stylesheet" href="menu.css" type="text/css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="Scripts/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<style type="text/css" media="screen">
+
+/*---- 滑鼠效果 ----*/
+body {cursor:url("images/ken_body.ico");}
+a:hover  {cursor:url("images/ken_hover.ico");}
+a:active {cursor:url("images/ken_active.ico");}
+
+table {margin-left:auto; margin-right:auto}
+ul li {list-style:none;}			
+p { font-size: 1.2em; }
+						
+.wide {
+border-bottom: 1px #000 solid;
+width: 4000px;
+}
+			
+.fleft { float: left; margin: 0 20px 0 0; }
+			
+.cboth { clear: both; }
+			
+* { 
+margin:0;
+padding:0;
+}
+/*---- 外層 ----*/         
+#WRAPPER {
+	width: 80%;
+	height: 80%;
+	margin-top: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1px;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+}
+/*---- 上橫幅 ----*/
+#HEADER {
+	width: 820px;
+	height:325px;
+	margin:auto;
+}
+#HEADER h1 a {
+	text-indent: -9999px;
+	display: block;
+	width: 820px;
+	height: 325px;
+}
+/*---- 主選單 ----*/
+div#menu {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: #666 1px 2px 5px;
+	-moz-box-shadow: #666 1px 2px 5px;
+	box-shadow: #666 1px 2px 5px;
+	behavior: url(PIE.htc);
+	margin:auto;
+	width: 820px;
+	background:transparent url(images/header_bg.gif) repeat-x 0 0;
+	position: relative;
+}
+/*---- 內容區 ----*/
+
+#CONTENT h2, #CONTENT h4, #CONTENT p {
+	padding:6px 20px 6px 20px;
+	font-size:12px;
+	
+}
+#CONTENT h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10px;
+	background-color:#666;
+	color:#FFF;
+	letter-spacing:10px;
+	border-top:2px #999 solid;
+}
+#CONTENT {
+	margin:auto;
+	clear: both;
+	border: 1px solid #696;
+	padding: 40px 0;
+	text-align: center;
+	width: 820px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: #666 1px 2px 5px;
+	-moz-box-shadow: #666 1px 2px 5px;
+	box-shadow: #666 1px 2px 5px;
+	background: #CCEFEE;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#CCEFEE), to(#395BD5));
+	background: -webkit-linear-gradient(#CCEFEE, #395BD5);
+	background: -moz-linear-gradient(#CCEFEE, #395BD5);
+	background: -ms-linear-gradient(#CCEFEE, #395BD5);
+	background: -o-linear-gradient(#CCEFEE, #395BD5);
+	background: linear-gradient(#CCEFEE, #395BD5);
+	-pie-background: linear-gradient(#CCEFEE, #395BD5);
+	behavior: url(PIE.htc);
+	position: relative;
+	top: 1%;
+}
+/*---- 頁尾 ----*/
+#FOOTER {
+	top: 2%;
+	border: 1px solid #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: #666 1px 2px 5px;
+	-moz-box-shadow: #666 1px 2px 5px;
+	box-shadow: #666 1px 2px 5px;
+	behavior: url(PIE.htc);
+	margin:auto;
+	background-color: #000000;
+	position: relative;
+	width: 820px;
+	margin-top: 10 px;
+	text-align: right;
+}
+#FOOTER h2, #FOOTER p {
+	font-size: 12px;
+	padding:5px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+} 
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+#WRAPPER #CONTENT h1 {
+	font-size: large;
+}
+#WRAPPER #CONTENT table tr td {
+	text-align: left;
+}
+</style>
+<!-- TemplateParam name="id" type="text" value="CONTENT" -->
+</head>
+
+<body>
+<div id="WRAPPER"> <!--Wrapper 外層 -->
+
+<div id="HEADER"><img src="images/banner.jpg" width="821" height="375" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="poly" coords="438,142" href="#" />
+    <area shape="poly" coords="435,145" href="#" />
+    <area shape="poly" coords="441,142,598,223,610,229,639,248,639,253,610,237,600,241,437,151,435,146" href="sp.html" />
+  </map>
+</div>
+<div id="menu">
+    <ul class="menu">
+        <li><a href="index.htm" class="parent"><span>Home</span></a>
+        </li>
+        <li><a href="introduction.html" class="parent"><span>About us</span></a>
+        </li>
+        <li><a href="#" class="parent"><span>Achivement</span></a>
+            <div><ul>
+                <li><a href="achive_99.html"><span>99 YEAR</span></a>
+                </li>
+            </ul></div>
+        </li>
+        <li><a href="#" class="parent"><span>Activities</span></a>
+            <div><ul>
+                 <li><a href="#" class="parent"><span>Activity 9/16</span></a>
+                     <div><ul>
+                     <li><a href="act_a_int.html"><span>Introduction</span></a></li>
+                     
+                     </ul></div>
+                 </li>
+                 <li><a href="#" class="parent"><span>Activity 11/30</span></a>
+                     <div><ul>
+                     <li><a href="act_b_int.html"><span>Introducion</span></a></li>
+                     <li><a href="act_b_rec.html"><span>Record</span></a></li>
+                     </ul></div>
+                 </li>
+                 <li><a href="#" class="parent"><span>Activity 12/3</span></a>
+                     <div><ul>
+                     <li><a href="act_c_int.html"><span>Introducion</span></a></li>
+                     <li><a href="act_c_rec.html"><span>Record</span></a></li>
+                     </ul></div>
+                 </li>
+                  <li><a href="#" class="parent"><span>Activity 12/5</span></a>
+                     <div><ul>
+                     <li><a href="act_d_int.html"><span>Introducion</span></a></li>
+                     <li><a href="act_d_rec.html"><span>Record</span></a></li>
+                     </ul></div>
+                 </li>
+                 </ul></div>    
+        <li><a href="#" class="parent"><span>Links</span></a>
+            <div><ul>
+                <li><a href="http://www.nccu.edu.tw/" target="_blank"><span>NCCU</span></a>
+                </li>
+                <li><a href="http://www.isin.url.tw/" target="_blank"><span>I SIN KENDO</span></a>
+                </li>
+                <li><a href="http://www.facebook.com/pages/%E6%94%BF%E5%A4%A7%E5%8A%8D%E9%81%93%E7%A4%BE/150159265045572?ref=ts" target="_blank"><span>NCCU KENDO FB</span></a>
+                </li>
+            </ul></div>
+        </li>
+        <li><a href="#" class="parent"><span>About Kendo</span></a>
+            <div><ul>
+                <li><a href="videos.html"><span>VIDEOS</span></a>
+                </li>
+                <li><a href="album.html"><span>ALBUM</span></a>
+                </li>
+            </ul></div>
+        </li>
+      <li class="last"><a href="mailto:99304010@nccu.edu.tw"><span>contact</span></a></li>
+    </ul>
+</div>
+<span style='display: none;'><a href='http://apycom.com/' target='_blank'>Apycom jQuery Menus</a></span>
+ <!--menu 主選單 -->
+<div id="CONTENT">
+  <h1 align="center">國際化活動 Internationalization    2011/11/30 </h1>
+  <table border="0" cellspacing="0" cellpadding="0" width="699">
+    <tr>
+      <td width="358" valign="top"><br />
+        Introduction    18:30~19:00 自我介紹Self-Introduction<br />
+        19:00~19:30 劍道基本介紹 <br />
+        Introduce    Kendo<br />
+        Experience for yourself<br />
+        19:30~20:00體驗部分之切報紙 <br />
+        Cut newspaper <br />
+        20:00~20:30體驗部分之打報紙球 <br />
+        Hit paper balls <br />
+        20:30~20:45體驗部分之穿道服 Clothing<br />
+        20:45~21:00體驗部分之打擊Strikes <br />
+        Competition <br />
+        21:00~21:20    劍道影片欣賞 <br />
+        Kendo    Competitions Videos </td>
+      <td width="341" valign="top"><p><img src="images/clip_image002.jpg" alt="" width="347" height="260" /><br />
+        ↑體驗部分之穿道服Experience for    yourself-Clothing<br />
+        讓參加者親自穿著道服並學習如何折道服。 <br />
+        Teach every participant how to wear clothing and how to folding clothes.<br />
+        (體驗者:外交一 皮傑斯[俄羅斯外籍生]) </p></td>
+    </tr>
+  </table>
+  <div align="center">
+    <table border="0" cellspacing="0" cellpadding="0" width="701">
+      <tr>
+        <td width="351" valign="top"><p><img src="images/clip_image004.jpg" alt="" width="347" height="260" /><br />
+          ↑自我介紹Self-Introduction <br />
+          透過自我介紹讓我們了解參與者的動機、興趣，對他們有所認識。 <br />
+          By self-introduction, we know more about them    and why they want to join us <br />
+          (左二起:100101037中文一黃偉哲[香港華僑] 100101074 中文一吳亮賢[台灣學生] 97403016 廣電四安田志乃[日本外籍生]) <img src="images/clip_image006.jpg" alt="" width="234" height="312" /><br />
+          ↑體驗部分之切報紙Experience for    yourself- Cut newspaper<br />
+          以一些簡單的遊戲讓他們實際揮木刀，體驗劍道的動作。 <br />
+          By some simple games, let them experience Kendo by themselves.<br />
+          (體驗者:97403016 廣電四 安田志乃[日本外籍生]) </p></td>
+        <td width="351" valign="top"><p><img src="images/clip_image008.jpg" alt="" width="320" height="237" /><br />
+          ↑劍道基本介紹Introduce    Kendo <br />
+          先將劍道的概念、歷史、衣服與禮儀做一些基本的介紹，以Power    Point的方式搭配圖片讓參與者了解。 <br />
+          First, through PPT, we introduce    concept、history、equipment、clothing and etiquettes of Kendo.<br />
+          (最前排左起: 97403016 廣電四安田志乃[日本外籍生] 100101074 中文一吳亮賢[台灣學生]100101037中文一黃偉哲[香港華僑]) <img src="images/clip_image010.jpg" alt="" width="347" height="258" /><br />
+          ↑體驗部分之切報紙Experience for    yourself- Cut newspaper-demonstrate how to use wooden    sword.<br />
+          學姊示範如何用木刀切報紙。 <br />
+          Show them how to cut newspaper by the wooden sword.<br />
+          (後排由前往後左二起: 97403016 廣電四安田志乃[日本外籍生] 100101074 中文一吳亮賢[台灣學生] 100101037中文一黃偉哲[香港華僑]) </p></td>
+      </tr>
+    </table>
+  </div>
+  <div align="center">
+    <table border="0" cellspacing="0" cellpadding="0" width="696">
+      <tr>
+        <td width="354" valign="top"><p><img src="images/clip_image012.jpg" alt="" width="337" height="254" /><strong></strong><br />
+          ↑體驗部分之打報紙球Experience for    yourself-Hit paper balls <br />
+          用竹劍來打擊報紙球，體驗揮竹劍的感覺。 <br />
+          Hit paper balls by the shinai.<br />
+          Feel the feeling of using the shinai. <br />
+          (體驗者: 97301024 國貿四周欣儀[台灣學生]) </p></td>
+        <td width="342" valign="top"><p> <img src="images/clip_image014.jpg" alt="" width="234" height="312" /><br />
+          ↑體驗部分之切報紙Experience for    yourself- Cut newspaper<br />
+          以一些簡單的遊戲讓他們實際揮木刀，體驗劍道的動作。 <br />
+          By some simple games, let them experience Kendo by themselves.<br />
+          (體驗者: 100101074 中文一吳亮賢[台灣學生]) </p></td>
+      </tr>
+    </table>
+  </div>
+  <div align="center">
+    <table border="0" cellspacing="0" cellpadding="0" width="690">
+      <tr>
+        <td width="410" valign="top"><p><img src="images/clip_image016.jpg" alt="" width="248" height="332" /><br />
+          ↑體驗部分之穿道服Experience for    yourself-Clothing<br />
+          (體驗者左起: 100101037中文一黃偉哲[香港華僑] 100101074 中文一吳亮賢[台灣學生]) </p></td>
+        <td width="280" valign="top"><p> <img src="images/clip_image018.jpg" alt="" width="237" height="258" /><br />
+          ↑劍道影片欣賞Watching Kendo    Competitions Videos<br />
+          介紹如何看懂劍道比賽。 <br />
+          Watch Kendo Competitions Videos and explain how to    appreciate competitions.<br />
+          (最前排左起: 97403016 廣電四安田志乃[日本外籍生] 100101074 中文一吳亮賢[台灣學生]100101037中文一黃偉哲[香港華僑]) </p></td>
+      </tr>
+    </table>
+  </div>
+</div> 
+<!--CONTENT內容區 -->
+
+<div id="FOOTER"> <p> 建議以Chrome瀏覽， 版權沒有，自由運用。 </p>
+  <!--最外層包裝 結尾--></div>
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+</body>
+</html>
